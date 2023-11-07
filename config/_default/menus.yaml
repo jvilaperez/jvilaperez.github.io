@@ -11,7 +11,7 @@ main:
     url: './publication/'
     weight: 20
   - name: Experience
-    url: '#projects'
+    url: '#experience'
     weight: 30
   - name: Contact
     url: '#contact'
