@@ -1,50 +1,54 @@
 ---
 # Display name
-title: 吳健雄
+title: Jordi Vila-Pérez
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Jordi
+last_name: Vila-Pérez
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🛰
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Massachusetts Institute of Technology
+    url: https://www.mit.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include the development of computational methods, the physical modeling of the upper atmosphere, and compressible aerodynamics.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Numerical Methods
+  - Space Weather
+  - Fluid Mechanics
+  - Aerodynamics
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Applied Mathematics
+      institution: Universitat Politècnica de Catalunya, Barcelona
+      year: 2021
+    - course: MSc in Applied Mathematics
+      institution: Universitat Politècnica de Catalunya, Barcelona
+      year: 2017
+    - course: BSc in Aerospace Engineering
+      institution: Universitat Politècnica de Catalunya, Barcelona
+      year: 2016
+    - course: BSc in Mathematics
+      institution: Universitat Politècnica de Catalunya, Barcelona
+      year: 2016
 
 # Skills
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -96,29 +100,26 @@ social:
     link: '/#contact'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/JVilaPerez
     label: Follow me on Twitter
     display:
       header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user%253DNicTf7sAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
+    link: https://github.com/jvilaperez
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: uploads/cv.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a postdoctoral researcher in the Department of Aeronautics and Astronautics at MIT, where I work with Prof. Peraire and Dr. Nguyen. My research deals with the development of numerical methods and their integration to space weather applications.
+
+More broadly, my research covers a diverse array of topics, including the study of the upper atmosphere, compressible aerodynamics and, more broadly, the development of low and high-order computational methods, spanning from finite volume schemes to high-order discontinuous Galerkin methods.
+Before joining MIT, I earned my PhD in Applied Mathematics from Universitat Politècnica de Catalunya, in Barcelona, in 2021, focusing on low and high-order hybridized methods for compressible flows. I received my Bachelor’s double degree in Mathematics and Aerospace Engineering, and a Master in Applied Mathematics from the same university in 2016 and 2017, respectively.
 {style="text-align: justify;"}
