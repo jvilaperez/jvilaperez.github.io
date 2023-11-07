@@ -1,0 +1,90 @@
+@Article{JVP2022_FCFV,
+  author   = {J. Vila-Pérez and M. Giacomini and R. Sevilla and A. Huerta},
+  journal  = {Computers and Fluids},
+  title    = {A non-oscillatory face-centred finite volume method for compressible flows},
+  year     = {2022},
+  issn     = {00457930},
+  volume   = {235},
+  abstract = {This work presents a face-centred finite volume (FCFV) paradigm for the simulation of compressible flows. The FCFV method defines the unknowns at the face barycentre and uses a hybridisation procedure to eliminate all the degrees of freedom inside the cells. In addition, Riemann solvers are defined implicitly within the expressions of the numerical fluxes. The resulting methodology provides first-order accurate approximations of the conservative quantities, i.e. density, momentum and energy, as well as of the viscous stress tensor and of the heat flux, without the need of any gradient reconstruction procedure. Hence, the FCFV solver preserves the accuracy of the approximation in presence of distorted and highly stretched cells, providing a solver insensitive to mesh quality. In addition, FCFV is capable of constructing non-oscillatory approximations of sharp discontinuities without resorting to shock capturing or limiting techniques. For flows at low Mach number, the method is robust and is capable of computing accurate solutions in the incompressible limit without the need of introducing specific pressure correction strategies. A set of 2D and 3D benchmarks of external flows is presented to validate the methodology in different flow regimes, from inviscid to viscous laminar flows, from transonic to subsonic incompressible flows, demonstrating its potential to handle compressible flows in realistic scenarios.},
+  doi      = {10.1016/j.compfluid.2021.105272},
+  keywords = {Compressible flows,Face-centred,Finite volume method,Hybridisable discontinuous Galerkin,Incompressible limit,Riemann solvers},
+}
+
+@Article{JVP2021_HDG,
+  author   = {J. Vila-Pérez and M. Giacomini and R. Sevilla and A. Huerta},
+  journal  = {Archives of Computational Methods in Engineering},
+  title    = {Hybridisable Discontinuous Galerkin Formulation of Compressible Flows},
+  year     = {2021},
+  issn     = {18861784},
+  volume   = {28},
+  abstract = {This work presents a review of high-order hybridisable discontinuous Galerkin (HDG) methods in the context of compressible flows. Moreover, an original unified framework for the derivation of Riemann solvers in hybridised formulations is proposed. This framework includes, for the first time in an HDG context, the HLL and HLLEM Riemann solvers as well as the traditional Lax–Friedrichs and Roe solvers. HLL-type Riemann solvers demonstrate their superiority with respect to Roe in supersonic cases due to their positivity preserving properties. In addition, HLLEM specifically outstands in the approximation of boundary layers because of its shear preservation, which confers it an increased accuracy with respect to HLL and Lax–Friedrichs. A comprehensive set of relevant numerical benchmarks of viscous and inviscid compressible flows is presented. The test cases are used to evaluate the competitiveness of the resulting high-order HDG scheme with the aforementioned Riemann solvers and equipped with a shock treatment technique based on artificial viscosity.},
+  doi      = {10.1007/s11831-020-09508-z},
+  issue    = {2},
+  keywords = {HLL-type numerical fluxes,Riemann solvers,compressible flows,high-order,hybridisable discontinuous Galerkin,numerical benchmarks},
+}
+
+@Article{JVP2023_FCFV,
+  author  = {Jordi Vila-Pérez and Matteo Giacomini and Antonio Huerta},
+  journal = {International Journal of Numerical Methods for Heat & Fluid Flow},
+  title   = {Benchmarking the face-centred finite volume method for compressible laminar flows},
+  year    = {2023},
+  issn    = {0961-5539},
+  month   = mar,
+  doi     = {10.1108/HFF-08-2022-0458},
+}
+
+@Article{JVP2022_Exasim,
+  author   = {Jordi Vila-Pérez and R Loek Van Heyningen and Ngoc-Cuong Nguyen and Jaume Peraire},
+  journal  = {SoftwareX},
+  title    = {Exasim: Generating discontinuous Galerkin codes for numerical solutions of partial differential equations on graphics processors},
+  year     = {2022},
+  issn     = {2352-7110},
+  pages    = {101212},
+  volume   = {20},
+  doi      = {10.1016/j.softx.2022.101212},
+  keywords = {Discontinuous Galerkin,GPU,High-performance computing,Parametrized PDE models},
+}
+
+@Article{JVP2023_AIAA,
+  author  = {Jordi Vila-Pérez and Cuong Nguyen and Jaime Peraire},
+  journal = {AIAA SCITECH Forum},
+  title   = {High-Fidelity Discontinuous Galerkin Method for Physics-Based Space Weather Modeling},
+  year    = {2023},
+  doi     = {10.2514/6.2023-1958},
+}
+
+@Article{JVP2023_SW,
+  author  = {Jordi Vila-Pérez and Ngoc Cuong Nguyen and Jaume Peraire},
+  journal = {International Journal of Numerical Methods in Engineering},
+  title   = {A high-order discontinuous Galerkin approach for physics-based thermospheric modeling},
+  year    = {2023},
+  month   = dec,
+  issue   = {(Accepted)},
+}
+
+@Unpublished{Nguyen2023b,
+  author   = {Ngoc Cuong Nguyen and R. Loek Van Heyningen and Jordi Vila-Perez and Jaime Peraire},
+  title    = {Optimal transport for mesh adaptivity and shock capturing of compressible flows},
+  month    = {10},
+  year     = {2023},
+  abstract = {We present an optimal transport approach for mesh adaptivity and shock capturing of compressible flows. Shock capturing is based on a viscosity regularization of the governing equations by introducing an artificial viscosity field as solution of the Helmholtz equation. Mesh adaptation is based on the optimal transport theory by formulating a mesh mapping as solution of Monge-Ampere equation. The marriage of optimal transport and viscosity regularization for compressible flows leads to a coupled system of the compressible Euler/Navier-Stokes equations, the Helmholtz equation, and the Monge-Ampere equation. We propose an iterative procedure to solve the coupled system in a sequential fashion using homotopy continuation to minimize the amount of artificial viscosity while enforcing positivity-preserving and smoothness constraints on the numerical solution. We explore various mesh monitor functions for computing r-adaptive meshes in order to reduce the amount of artificial dissipation and improve the accuracy of the numerical solution. The hybridizable discontinuous Galerkin method is used for the spatial discretization of the governing equations to obtain high-order accurate solutions. Extensive numerical results are presented to demonstrate the optimal transport approach on transonic, supersonic, hypersonic flows in two dimensions. The approach is found to yield accurate, sharp yet smooth solutions within a few mesh adaptation iterations.},
+  journal  = {(Submitted)},
+  keywords = {artificial viscosity,compressible flows,discontinuous Galerkin methods,finite element methods,mesh adaptation,optimal transport,shock capturing},
+  url      = {https://arxiv.org/abs/2310.01196v1},
+}
+
+@Article{Nguyen2023,
+  author    = {Ngoc Cuong Nguyen and Jordi Vila-Pérez and Jaime Peraire},
+  journal   = {Journal of Computational Physics},
+  title     = {An adaptive viscosity regularization approach for the numerical solution of conservation laws: Application to finite element methods},
+  year      = {2023},
+  issn      = {0021-9991},
+  month     = {11},
+  pages     = {112507},
+  volume    = {494},
+  abstract  = {We introduce an adaptive viscosity regularization approach for the numerical solution of systems of nonlinear conservation laws with shock waves. The approach seeks to solve a sequence of regularized problems consisting of the system of conservation laws and an additional Helmholtz equation for the artificial viscosity. We propose a homotopy continuation of the regularization parameters to minimize the amount of artificial viscosity subject to positivity-preserving and smoothness constraints on the numerical solution. The regularization methodology is combined with a mesh adaptation strategy that identifies the shock location and generates shock-aligned meshes, which allows to further reduce the amount of artificial dissipation and capture shocks with increased accuracy. We use the hybridizable discontinuous Galerkin method to numerically solve the regularized system of conservation laws and the continuous Galerkin method to solve the Helmholtz equation for the artificial viscosity. We show that the approach can produce approximate solutions that converge to the exact solution of the Burgers' equation. Finally, we demonstrate the performance of the method on inviscid transonic, supersonic, hypersonic flows in two dimensions. The approach is found to be accurate, robust and efficient, and yields very sharp yet smooth solutions in a few homotopy iterations.},
+  doi       = {10.1016/J.JCP.2023.112507},
+  publisher = {Academic Press},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
