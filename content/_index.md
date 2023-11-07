@@ -145,12 +145,12 @@ sections:
     content:
       title: Contact
       subtitle:
-      text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+      #text: |-
+      #  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, #vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
       email: jvilap@mit.edu
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
+      #phone: 888 888 88 88
+      #appointment_url: 'https://calendly.com'
       address:
         street: 77, Massachusetts Avenue, 37-427
         city: Cambridge
@@ -170,13 +170,13 @@ sections:
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
+      #form:
+      #  provider: netlify
+      #  formspree:
+      #    id:
+      #  netlify:
           # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+      #    captcha: false
     design:
       columns: '2'
 ---
