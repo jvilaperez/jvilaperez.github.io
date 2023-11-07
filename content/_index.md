@@ -92,8 +92,6 @@ sections:
       # To filter by a specific tag, set `tag` to an existing tag name.
       # To remove the toolbar, delete the entire `filter_button` block.
       buttons:
-        - name: All
-          tag: '*'
         - name: Deep Learning
           tag: Deep Learning
         - name: Other
@@ -145,12 +143,6 @@ sections:
     content:
       title: Contact
       subtitle:
-      #text: |-
-      #  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, #vehicula efficitur enim.
-      # Contact (add or remove contact options as necessary)
-      email: jvilap@mit.edu
-      #phone: 888 888 88 88
-      #appointment_url: 'https://calendly.com'
       address:
         street: 77, Massachusetts Avenue, 37-427
         city: Cambridge
@@ -158,9 +150,10 @@ sections:
         postcode: '02139'
         country: United States
         country_code: US
-      #office_hours:
-      #  - 'Monday 10:00 to 13:00'
+      office_hours:
+        - '16.920: Thursdays 1pm to 2pm'
       #  - 'Wednesday 09:00 to 10:00'
+      email: jvilap@mit.edu
       # Choose a map provider in `params.yaml` to show a map from these coordinates 
       contact_links:
         - icon: twitter
