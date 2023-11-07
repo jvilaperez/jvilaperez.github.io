@@ -106,7 +106,7 @@ sections:
     id: featured
     content:
       title: Featured Publications and Preprints
-    #  subtitle: [Full list of publications](./publications/)
+      subtitle: [Full list of publications](./publication/)
       filters:
         folders:
           - publication
