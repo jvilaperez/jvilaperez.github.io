@@ -122,7 +122,7 @@ sections:
           company: Massachusetts Institute of Technology
           company_url: ''
           company_logo: ''
-          location: California
+          location: Cambridge, MA
           date_start: '2021-03-01'
           date_end: ''
           description: |2-
