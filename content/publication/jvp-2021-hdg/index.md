@@ -1,0 +1,34 @@
+---
+title: Hybridisable Discontinuous Galerkin Formulation of Compressible Flows
+authors:
+- J. Vila-Pérez
+- M. Giacomini
+- R. Sevilla
+- A. Huerta
+date: '2021-01-01'
+publishDate: '2023-11-07T08:53:28.282422Z'
+publication_types:
+- article-journal
+publication: '*Archives of Computational Methods in Engineering*'
+doi: 10.1007/s11831-020-09508-z
+abstract: This work presents a review of high-order hybridisable discontinuous Galerkin
+  (HDG) methods in the context of compressible flows. Moreover, an original unified
+  framework for the derivation of Riemann solvers in hybridised formulations is proposed.
+  This framework includes, for the first time in an HDG context, the HLL and HLLEM
+  Riemann solvers as well as the traditional Lax–Friedrichs and Roe solvers. HLL-type
+  Riemann solvers demonstrate their superiority with respect to Roe in supersonic
+  cases due to their positivity preserving properties. In addition, HLLEM specifically
+  outstands in the approximation of boundary layers because of its shear preservation,
+  which confers it an increased accuracy with respect to HLL and Lax–Friedrichs. A
+  comprehensive set of relevant numerical benchmarks of viscous and inviscid compressible
+  flows is presented. The test cases are used to evaluate the competitiveness of the
+  resulting high-order HDG scheme with the aforementioned Riemann solvers and equipped
+  with a shock treatment technique based on artificial viscosity.
+tags:
+- HLL-type numerical fluxes
+- Riemann solvers
+- compressible flows
+- high-order
+- hybridisable discontinuous Galerkin
+- numerical benchmarks
+---
