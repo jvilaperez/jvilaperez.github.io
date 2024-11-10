@@ -21,11 +21,32 @@ role: Project Scientist I
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: National Center for Atmospheric Research
-    url: https://www.mit.edu/
+  - name: High Altitude Observatory, National Center for Atmospheric Research
+    url: https://www2.hao.ucar.edu
+
+# Work positions
+work:
+  - position: Postdoctoral Researcher
+    company_name: Massachusetts Institute of Technology
+    company_url: http://www.mit.edu
+    company_logo: ''
+    date_start: 2021
+    date_end: 2024
+    summary: |
+      - Development of GPU-based numerical methods
+      - Physics-based modeling of the ionosphere-thermosphere system
+
+  - position: Researcher
+    company_name: Frontier Development Laboratory (Trilium-NASA Consortium)
+    company_url: https://fdl.ai/fdl2024
+    company_logo: ''
+    date_start: 2024
+    date_end: ''
+    summary: |
+      - Thermospheric density forecasting using ML-based strategies
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include the development of computational methods, the physical modeling of the upper atmosphere, and compressible aerodynamics.
+bio: My research interests include the development of computational methods, the physical modeling of the upper atmosphere, and compressible fluid mechanics.
 
 # Interests to show in About widget
 interests:
@@ -33,7 +54,6 @@ interests:
   - Thermosphere-Ionosphere Modeling
   - Space Weather
   - Fluid Mechanics
-
 
 # Education to show in About widget
 education:
@@ -50,46 +70,6 @@ education:
     - course: BSc in Mathematics
       institution: Universitat Politècnica de Catalunya, Barcelona
       year: 2016
-
-# Skills
-# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
-skills:
-  - name: Technical
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: python
-        icon_pack: fab
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-line
-        icon_pack: fas
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: database
-        icon_pack: fas
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-hiking
-        icon_pack: fas
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-        icon_pack: fas
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera-retro
-        icon_pack: fas
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -119,8 +99,8 @@ social:
 highlight_name: true
 ---
 
-I am a postdoctoral researcher in the Department of Aeronautics and Astronautics at MIT, where I work with Prof. Peraire and Dr. Nguyen. My research deals with the development of numerical methods and their integration to space weather applications.
+I am a project scientist in the High Altitude Observatory at the National Center for Atmospheric Research. My research deals with the development of numerical methods for space weather applications.
+More broadly, my research covers a diverse array of topics, including the study of the upper atmosphere, compressible aerodynamics and, more broadly, the development of low and high-order computational methods, spanning from finite volume schemes, finite differences to high-order finite element methods, such as continuous and discontinuous Galerkin methods.
 
-More broadly, my research covers a diverse array of topics, including the study of the upper atmosphere, compressible aerodynamics and, more broadly, the development of low and high-order computational methods, spanning from finite volume schemes to high-order discontinuous Galerkin methods.
-Before joining MIT, I earned my PhD in Applied Mathematics from Universitat Politècnica de Catalunya, in Barcelona, in 2021, focusing on low and high-order hybridized methods for compressible flows. I received my Bachelor’s double degree in Mathematics and Aerospace Engineering, and a Master in Applied Mathematics from the same university in 2016 and 2017, respectively.
+Before joining NCAR, I was a postdoctoral researcher in the Department of Aeronautics and Astronautics at MIT, where I worked with Prof. J. Peraire and Dr. N.C. Nguyen. Previously, I earned my PhD in Applied Mathematics from Universitat Politècnica de Catalunya, in Barcelona, in 2021, focusing on low and high-order hybridized methods for compressible flows. I received my Bachelor’s double degree in Mathematics and Aerospace Engineering, and a Master in Applied Mathematics from the same university in 2016 and 2017, respectively.
 {style="text-align: justify;"}
