@@ -17,11 +17,11 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Postdoctoral Researcher
+role: Project Scientist I
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Massachusetts Institute of Technology
+  - name: National Center for Atmospheric Research
     url: https://www.mit.edu/
 
 # Short bio (displayed in user profile at end of posts)
@@ -30,9 +30,10 @@ bio: My research interests include the development of computational methods, the
 # Interests to show in About widget
 interests:
   - Numerical Methods
+  - Thermosphere-Ionosphere Modeling
   - Space Weather
   - Fluid Mechanics
-  - Aerodynamics
+
 
 # Education to show in About widget
 education:
