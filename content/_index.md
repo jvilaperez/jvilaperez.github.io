@@ -119,13 +119,35 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Project Scientist I
+          company: High Altitude Observatory, National Center for Atmospheric Research
+          company_url: https://www2.hao.ucar.edu
+          company_logo: ''
+          location: Boulder, CO
+          date_start: '2024-09-03'
+          date_end: ''
+          description: |2-
+              Research areas:
+              * Ionosphere-thermosphere modeling
+              * Numerical methods for upper atmospheric sciences
+        - title: Researcher
+          company: Frontier Development Laboratory (Trilium-NASA Consortium)
+          company_url: https://fdl.ai/fdl2024
+          company_logo: ''
+          location: 
+          date_start: '2024-06-22'
+          date_end: '2024-08-16'
+          description: |2-
+              Research areas:
+              * Thermospheric density forecasting
+              * Development of machine learning strategies
         - title: Postdoctoral Associate
-          company: Massachusetts Institute of Technology
-          company_url: ''
+          company: Department of Aeronautics and Astronautics, Massachusetts Institute of Technology
+          company_url: https://aeroastro.mit.edu
           company_logo: ''
           location: Cambridge, MA
           date_start: '2021-03-01'
-          date_end: ''
+          date_end: '2024-08-31'
           description: |2-
               Research areas:
               * Space weather modeling
@@ -134,15 +156,24 @@ sections:
 
               Responsibilities:
               * Teaching assistant (16.920, Numerical methods for PDEs)
-              * Mentorship (UROP)
+              * Mentorship of undergrad students (UROP)
         - title: Predoctoral Researcher (PhD)
-          company: Universitat Politècnica de Catalunya
-          company_url: ''
+          company: Laboratori de Càlcul Numèric, Universitat Politècnica de Catalunya
+          company_url: https://www.lacan.upc.edu
           company_logo: ''
           location: Barcelona
           date_start: '2017-09-01'
           date_end: '2021-02-10'
-          description: Taught electronic engineering and researched semiconductor physics.
+          description: |2-
+              Research areas:
+              * Compressible Aerodynamics
+              * Hybridizable discontinuous Galerkin
+              * Face-centered finite volume method
+              * Riemann solvers
+
+              Merits:
+              * Barcelona Graduate School of Mathematics (BGSMath) doctoral fellowship through María de Maeztu excellence program (2017-2020).
+              * Research visit at the Zienkiewicz Centre for Computational Engineering (Swansea University, UK). Funded through UPC Doctoral Erasmus+ scholarship (2019).
     design:
       columns: '2'
 
@@ -152,22 +183,19 @@ sections:
       title: Contact
       subtitle:
       address:
-        street: 77, Massachusetts Avenue, 37-427
-        city: Cambridge
-        region: MA
-        postcode: '02139'
+        street: 3090 Center Green Dr
+        city: Boulder
+        region: CO
+        postcode: '80301'
         country: United States
         country_code: US
-      office_hours:
-        - '16.920: Thursdays 1pm to 2pm'
-      #  - 'Wednesday 09:00 to 10:00'
-      email: jvilap@mit.edu
+      email: jvilap@ucar.edu
       # Choose a map provider in `params.yaml` to show a map from these coordinates 
       contact_links:
         - icon: twitter
           icon_pack: fab
           name: '@JVilaPerez'
-          link: 'https://twitter.com/JVilaPerez'
+          link: 'https://x.com/JVilaPerez'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider

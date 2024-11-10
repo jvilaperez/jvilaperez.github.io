@@ -17,33 +17,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Project Scientist I
+role: Scientist
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: High Altitude Observatory, National Center for Atmospheric Research
-    url: https://www2.hao.ucar.edu
-
-# Work positions
-work:
-  - position: Postdoctoral Researcher
-    company_name: Massachusetts Institute of Technology
-    company_url: http://www.mit.edu
-    company_logo: ''
-    date_start: 2021
-    date_end: 2024
-    summary: |
-      - Development of GPU-based numerical methods
-      - Physics-based modeling of the ionosphere-thermosphere system
-
-  - position: Researcher
-    company_name: Frontier Development Laboratory (Trilium-NASA Consortium)
-    company_url: https://fdl.ai/fdl2024
-    company_logo: ''
-    date_start: 2024
-    date_end: ''
-    summary: |
-      - Thermospheric density forecasting using ML-based strategies
+  - name: National Center for Atmospheric Research
+    url: 
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include the development of computational methods, the physical modeling of the upper atmosphere, and compressible fluid mechanics.
